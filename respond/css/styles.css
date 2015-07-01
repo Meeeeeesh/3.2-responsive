@@ -72,8 +72,11 @@ body {
 .left-columnNav > li:last-of-type:after {
   content: none;
 }
+.left-columnNav > li > a {
+  color: #fff;
+}
 .left-columnNav > li > a:hover {
-  color: #268862;
+  color: #f09523;
 }
 .line-sep {
   border-bottom: 1px solid #fff
@@ -90,12 +93,21 @@ body {
   min-height: 200px;
   padding: 40px;
   line-height: 27px;
-  color: #6D6D6D;
+  color: #fff;
   overflow: scroll;
+  background: url('../images/otherBackground.jpeg');
+  background-size: cover;
+  background-position: center center;
 }
 .even-more-wordsButton {
   text-align: right;
   height: 25%;
+}
+.even-more-wordsButton > a {
+  color: #fff;
+}
+.even-more-wordsButton > a:hover {
+  color: #f09523;
 }
 @media screen and (max-width: 600px) {
   .container {
