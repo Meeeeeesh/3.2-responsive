@@ -8,9 +8,8 @@ html {
 }
 html,
 body {
-  line-height: 1.5;
-  font-size: 2vw;
-  font-family: Helvetica;
+  font-size: 18px;
+  font-family: Helvetica, arial, sans-serif;
 }
 body {
   margin: 0;
@@ -21,8 +20,8 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  min-width: 50vw;
-  height: 100vm;
+  width: 50%;
+  height: 100%;
   overflow: scroll;
   background-image: url('../images/background.jpeg');
   background-size: cover;
@@ -45,7 +44,7 @@ body {
   float: right;
   background: none;
   color: inherit;
-  font-size: 20px;
+  font-size: 18px;
   border: 1px solid #fff;
   margin: 5px;
 }
@@ -82,7 +81,7 @@ body {
 }
 .head-text-b > p {
   margin: 40px;
-  font-size: 23px;
+  font-size: 25px;
 }
 .line-sep {
   border-bottom: 1px solid #fff
@@ -91,9 +90,9 @@ body {
   top: 0;
   bottom: 0;
   position: absolute;
-  width: 50vw;
-  height: 100vm;
-  font-size: 2vw;
+  width: 50%;
+  height: 100%;
+  font-size: 1.5vw;
   font-family: Helvetica;
   margin-left: 50%;
   min-height: 200px;
@@ -101,9 +100,6 @@ body {
   line-height: 27px;
   color: #262682;
   overflow: scroll;
-  /*background: url('../images/otherBackground.jpeg');
-  background-size: cover;
-  background-position: center center;*/
 }
 .right-Button {
   text-align: right;
